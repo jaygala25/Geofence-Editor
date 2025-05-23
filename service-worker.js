@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/geofence-editor/precache-manifest.7adb9943eed3547b7fec382f3a09d3ea.js"
+  "/Geofence-Editor/precache-manifest.68161a01e186c26205f1c91e18e10f3f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/geofence-editor/index.html", {
+workbox.routing.registerNavigationRoute("/Geofence-Editor/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
