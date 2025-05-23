@@ -1,7 +1,7 @@
 {
   "name": "react-google-maps-api-editing-a-polygon",
   "version": "1.0.0",
-  "homepage": "http://jaygala25.github.io/geofence-editor",
+  "homepage": "http://jaygala25.github.io/Geofence-Editor",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
@@ -19,11 +19,11 @@
   },
   "scripts": {
     "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "browserslist": [
     ">0.2%",
